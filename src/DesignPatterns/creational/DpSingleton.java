@@ -1,9 +1,8 @@
-package Basics;
+package DesignPatterns.creational;
 
 import java.io.*;
-import java.lang.reflect.Constructor;
 
-public class DbSingleton {
+public class DpSingleton {
 
     public static void main(String args[]) throws Exception {
         DbFile dbFile = DbFile.getInstance();
